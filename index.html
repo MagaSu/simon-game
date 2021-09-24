@@ -15,18 +15,18 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <title>Game</title>
+    <title>Simon Game</title>
   </head>
   <body>
     <div class="container">
       <h1 class="title">Press A Key to Start</h1>
-      <div class="color-block">
-        <div class="block blue">BLUE</div>
-        <div class="block red">RED</div>
+      <div class="row">
+        <div id="blue" type="button" id="blue" class="btn green"></div>
+        <div id="red" type="button" class="btn red"></div>
       </div>
-      <div class="color-block">
-        <div class="block orange">ORANGE</div>
-        <div class="block yellow">YELLOW</div>
+      <div class="row">
+        <div id="orange" type="button" class="btn yellow"></div>
+        <div id="yellow" type="button" class="btn blue"></div>
       </div>
     </div>
     <script src="game.js"></script>
