@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 2em 2em;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+.title {
+  font-family: "Press Start 2P", sans-serif;
+  margin-bottom: 5%;
+}
+.color-block {
+  display: flex;
+  justify-content: center;
+}
